@@ -1,0 +1,80 @@
+[
+  {
+    "id": 0,
+    "source": "projects.md",
+    "chunk_id": 0,
+    "text": "# Projects\n\n## Lung Cancer Risk Prediction (Research Project)  \nTechnical University of Munich\n\nThis research project focuses on predicting lung cancer risk over a six-year period using longitudinal medical data and deep learning models.\n\nThe system combines temporal data with anatomical features to identify long-term patterns and improve early cancer risk prediction.\n\n### Key technical elements\n- Python\n- PyTorch\n- Transformer-based models\n- Medical imaging\n- Deep learning\n- Data analysis\n\n### Contributions\n- Developed and tested machine learning models\n- Conducted experiments and model evaluations\n- Worked with real-world clinical datasets\n- Visualized model outputs and performance\n\n### Ou"
+  },
+  {
+    "id": 1,
+    "source": "projects.md",
+    "chunk_id": 1,
+    "text": "ents and model evaluations\n- Worked with real-world clinical datasets\n- Visualized model outputs and performance\n\n### Outcome\n- Project is being prepared for scientific publication\n- Demonstrates strong research-level AI development skills\n\n---\n\n## AI-Based Detection of Prostate Cancer (Bachelor Thesis)\n\nDeveloped an AI system for detecting and classifying prostate cancer using mpMRI medical imaging data.\n\nThe project combined machine learning, image processing, and medical data analysis to create a clinically relevant AI solution.\n\n### Key technical elements\n- Python\n- PyTorch\n- Medical imaging\n- Deep learning\n- Data processing\n\n### Additional impact\n- Awarded two prizes for Best Thesis\n- F"
+  },
+  {
+    "id": 2,
+    "source": "projects.md",
+    "chunk_id": 2,
+    "text": "orch\n- Medical imaging\n- Deep learning\n- Data processing\n\n### Additional impact\n- Awarded two prizes for Best Thesis\n- Featured in three newspapers\n- Presented to medical professionals\n- Included a visualization tool to explain model behavior\n\n---\n\n## AI Portfolio Chatbot (RAG System)\n\nBuilt a personal portfolio website integrated with an AI chatbot that answers questions about Ismail’s background, skills, and experience.\n\nThe system uses a retrieval-augmented generation (RAG) architecture to ensure answers are based only on structured personal data.\n\n### Key technical elements\n- Python\n- FastAPI\n- FAISS\n- Embeddings\n- LLM integration\n- Next.js frontend\n\n### What it demonstrates\n- End-to-end"
+  },
+  {
+    "id": 3,
+    "source": "projects.md",
+    "chunk_id": 3,
+    "text": "ents\n- Python\n- FastAPI\n- FAISS\n- Embeddings\n- LLM integration\n- Next.js frontend\n\n### What it demonstrates\n- End-to-end AI system design\n- Data structuring for LLMs\n- Backend API development\n- Full-stack integration\n- Focus on correctness and avoiding hallucination\n\n---\n\n## Object-Oriented Database System (Internship Project)\n\nDeveloped an object-oriented database system in C# and SQL to track project objects from planning to Site Acceptance Testing (SAT). \n\nBuilt an intermediary web interface using HTML, JavaScript, and ASP.NET Core MVC, enabling seamless user interaction. \n\nDesigned and implemented SQL procedures to optimize database performance.\n\n### Key technical elements\n- C#\n- SQL\n- A"
+  },
+  {
+    "id": 4,
+    "source": "projects.md",
+    "chunk_id": 4,
+    "text": ". \n\nDesigned and implemented SQL procedures to optimize database performance.\n\n### Key technical elements\n- C#\n- SQL\n- ASP.NET Core MVC\n- JavaScript\n- HTML/CSS\n\n### Contributions\n- Designed database structure and logic\n- Built SQL procedures for performance optimization\n- Developed a web interface for user interaction"
+  },
+  {
+    "id": 5,
+    "source": "skills.md",
+    "chunk_id": 0,
+    "text": "# Skills\n\n## Programming Languages\n- Python\n- Java\n- JavaScript\n- C#\n- C++\n- C\n- MATLAB\n- Assembly\n\n## AI and Machine Learning\n- Machine learning\n- Deep learning\n- Neural networks\n- Transformer models\n- Medical AI\n- PyTorch\n- TensorFlow\n- scikit-learn\n\n## Web Development\n- HTML\n- CSS\n- JavaScript\n- ASP.NET Core MVC\n- React / Next.js (project-based)\n\n## Backend Development\n- FastAPI\n- REST APIs\n- Application architecture\n- Data flow design\n\n## Databases\n- SQL\n- PostgreSQL\n- MySQL\n- Microsoft SQL Server\n\n## AI Systems & RAG\n- Embeddings\n- Vector search (FAISS)\n- Retrieval-augmented generation (RAG)\n- LLM integration\n\n## Tools & Technologies\n- Git & GitHub\n- Node.js & npm\n- Python environments"
+  },
+  {
+    "id": 6,
+    "source": "skills.md",
+    "chunk_id": 1,
+    "text": "mented generation (RAG)\n- LLM integration\n\n## Tools & Technologies\n- Git & GitHub\n- Node.js & npm\n- Python environments\n- Data processing tools\n- Microsoft Office\n\n## Strengths\n- Strong analytical and structured thinking\n- Fast learner with high adaptability\n- Ability to work in both research and practical environments\n- Strong communication skills\n- Team-oriented and collaborative mindset"
+  },
+  {
+    "id": 7,
+    "source": "education.md",
+    "chunk_id": 0,
+    "text": "# Education\n\n## Advanced Coursework in Artificial Intelligence  \nTechnical University of Munich (TUM)\n\nIsmail has completed advanced-level coursework in Artificial Intelligence at the Technical University of Munich, focusing on modern AI and data-driven systems.\n\n### Relevant coursework\n- Machine Learning\n- AI in Medicine\n- Data Mining\n- Multimodal AI in Medicine\n\nThese courses were taught by leading researchers, including Professor Daniel Ruckert and Professor Julia Schnabel.\n\n## Research Experience in Medical AI\n\nDuring his time at TUM, Ismail participated in a research project at the Chair for AI in Medicine.\n\nThe project focused on predicting lung cancer risk over a six-year period using"
+  },
+  {
+    "id": 8,
+    "source": "education.md",
+    "chunk_id": 1,
+    "text": "roject at the Chair for AI in Medicine.\n\nThe project focused on predicting lung cancer risk over a six-year period using real-world medical datasets and deep learning methods, including transformer-based models.\n\n### Contributions\n- Developed and tested machine learning models\n- Worked with medical datasets\n- Performed model evaluation and testing\n- Visualized model outputs\n\nThe project is currently being prepared for scientific publication, indicating a high level of quality beyond standard coursework.\n\nAfter completing the project, Ismail was offered a part-time role as a student research assistant within the lab, focusing on decentralized machine learning and clinical data. Although he di"
+  },
+  {
+    "id": 9,
+    "source": "education.md",
+    "chunk_id": 2,
+    "text": "student research assistant within the lab, focusing on decentralized machine learning and clinical data. Although he did not accept the position, the offer reflects the quality of his work.\n\n---\n\n## Bachelor’s Degree in Computer Science  \nHalmstad University\n\n### Bachelor thesis\nDeveloped an AI model for detecting and classifying prostate cancer using medical imaging data.\n\n### Achievements\n- Awarded two scholarships for Best Thesis\n- Featured in three newspapers\n- Recognized as significantly above expected level\n\nThe project included presenting results to medical professionals and developing a visualization tool to make the model understandable for non-technical users."
+  },
+  {
+    "id": 10,
+    "source": "about.md",
+    "chunk_id": 0,
+    "text": "# About Ismail\n\nIsmail Demir has a strong background in computer science and applied artificial intelligence, with a particular focus on machine learning and medical AI.\n\nHe has completed advanced-level coursework in Artificial Intelligence at the Technical University of Munich (TUM), where he studied topics such as Machine Learning, AI in Medicine, Data Mining, and Multimodal AI. In addition to his studies, he participated in a research project within the Chair for AI in Medicine, working with real-world medical data and deep learning models.\n\nIsmail combines strong technical skills with a structured and analytical mindset. He is highly motivated, quick to learn, and able to adapt rapidly t"
+  },
+  {
+    "id": 11,
+    "source": "about.md",
+    "chunk_id": 1,
+    "text": "cal skills with a structured and analytical mindset. He is highly motivated, quick to learn, and able to adapt rapidly to new technologies and environments. He enjoys working both independently and in collaborative teams.\n\n## Professional Focus\n\nIsmail is particularly interested in:\n- AI applications in healthcare\n- Machine learning and deep learning systems\n- Retrieval-based AI systems (RAG)\n- Software development\n- Backend and full-stack development\n- Data engineering and data-driven applications\n\n## Personal Qualities\n\nHe is a social and communicative person who enjoys working with people from different backgrounds and cultures. He is driven, curious, and continuously strives to improve h"
+  },
+  {
+    "id": 12,
+    "source": "about.md",
+    "chunk_id": 2,
+    "text": "orking with people from different backgrounds and cultures. He is driven, curious, and continuously strives to improve his technical and professional skills.\n\nOutside of his technical work, he maintains an active lifestyle through sports such as football, basketball, padel, and volleyball.\n\n## Personal Background\n\nIsmail Demir is 23 years old and was born in Karlskoga, Sweden. He moved at an early age to Motala and has been raised in Västervik, where he has lived since the age of seven."
+  }
+]
