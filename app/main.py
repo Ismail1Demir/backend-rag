@@ -1,13 +1,12 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-
-# KOMMENTERA UT DESSA SÅ LÄNGE!
-# from app.retriever import search_index
-# from app.llm import generate_answer
+from app.retriever import search_index
+from app.llm import generate_answer
 
 app = FastAPI()
 
+# Tillåt frontend att anropa backenden
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"], 
@@ -21,5 +20,12 @@ class ChatRequest(BaseModel):
 
 @app.post("/chat")
 async def chat_endpoint(request: ChatRequest):
-    # Dummy-svar som inte kräver något RAM-minne!
-    return {"answer": f"Wooohoo! 🎉 Backend mottog ditt meddelande: '{request.message}'. Vercel pratar med Render!"}
+    # 1. Hämta relevant data från FAISS
+    relevant_chunks = search_index(request.message)
+    
+    # 2. Skapa svar med LLM
+    answer = generate_answer(request.message, relevant_chunks)
+    
+    # 3. Returnera svar
+    return {"answer": answer}
+
