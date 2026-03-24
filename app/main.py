@@ -1,9 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-# comment out these for a moment
-# from app.retriever import search_index
-# from app.llm import generate_answer
 
 app = FastAPI()
 
@@ -20,9 +17,16 @@ class ChatRequest(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"status": "ok", "message": "Backend is alive"}
+    return {"status": "ok", "message": "Ismail's Portfolio API is running"}
 
 @app.post("/chat")
 async def chat_endpoint(request: ChatRequest):
-    # Enkelt svar utan AI för att testa porten
-    return {"answer": f"Backend mottog: {request.message}. AI laddas fortfarande..."}
+    # Vi importerar dessa INUTI funktionen istället för längst upp
+    # Detta sparar RAM-minne vid uppstart!
+    from app.retriever import search_index
+    from app.llm import generate_answer
+    
+    relevant_chunks = search_index(request.message)
+    answer = generate_answer(request.message, relevant_chunks)
+    
+    return {"answer": answer}
