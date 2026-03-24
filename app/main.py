@@ -1,15 +1,15 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-from app.retriever import search_index
-from app.llm import generate_answer
+# comment out these for a moment
+# from app.retriever import search_index
+# from app.llm import generate_answer
 
 app = FastAPI()
 
-# Tillåt frontend att anropa backenden
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], 
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -18,14 +18,11 @@ app.add_middleware(
 class ChatRequest(BaseModel):
     message: str
 
+@app.get("/")
+async def root():
+    return {"status": "ok", "message": "Backend is alive"}
+
 @app.post("/chat")
 async def chat_endpoint(request: ChatRequest):
-    # 1. Hämta relevant data från FAISS
-    relevant_chunks = search_index(request.message)
-    
-    # 2. Skapa svar med LLM
-    answer = generate_answer(request.message, relevant_chunks)
-    
-    # 3. Returnera svar
-    return {"answer": answer}
-
+    # Enkelt svar utan AI för att testa porten
+    return {"answer": f"Backend mottog: {request.message}. AI laddas fortfarande..."}
